@@ -20,3 +20,9 @@ Java 17, Spring Boot, Kafka, Redis, PostgreSQL, Docker, AWS
 ## Application Architecture
 
 ![Application Architecture](project-structure.png)
+## API Endpoints
+
+- POST /api/metrics/ingest
+- POST /api/alerts/evaluate
+- GET /api/alerts/active
+- GET /api/servers/{serverId}/health
