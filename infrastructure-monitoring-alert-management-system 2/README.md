@@ -17,3 +17,6 @@ Java 17, Spring Boot, Kafka, Redis, PostgreSQL, Docker, AWS
 - POST /api/alerts/evaluate
 - GET /api/alerts/active
 - GET /api/servers/{serverId}/health
+## Application Architecture
+
+![Application Architecture](project-structure.png)
